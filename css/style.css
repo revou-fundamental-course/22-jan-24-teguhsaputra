@@ -499,6 +499,32 @@ body{
     color: white;
 }
 
+.content-section-hero .col-2 .error{
+    width: 100%;
+    background-color: var(--error-500);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem .1rem 1rem .1rem;
+    border-radius: .3rem;
+    gap: 1rem;
+}
+
+.content-section-hero .col-2 .error img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.content-section-hero .col-2 .first span{
+    font-size: .8rem;
+    font-weight: 400;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
 .content-section-hero .col-2 .second{
     width: 100%;
     display: flex;

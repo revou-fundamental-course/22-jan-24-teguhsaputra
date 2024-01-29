@@ -97,28 +97,33 @@
           <div class="first">
             <h1>Contact Us</h1>
             <p>Sales akan menghubungi anda 1x24 Jam setelah data kami terima</p>
+            <div class="error" id="error">
+              <!-- icon exclamation mark -->
+              <img src="./images/exclamation-mark.png" alt="exclamation-mark">
+              <span id="notif"></span>
+            </div>
           </div>
           <div class="second">
-            <div class="input">
-              <h4>Your Name</h4>
-              <input type="text" placeholder="First and last name">
-            </div>
-            <div class="input">
-              <h4>Email Address:</h4>
-              <input type="email" placeholder="example@email.com">
-            </div>
-            <div class="input">
-              <h4>What are you interested in?</h4>
-              <select name="interest" class="test">
-                <option value="1">Vegetables</option>
-                <option value="2">Fruits</option>
-                <option value="3">Meat</option>
-                <option value="4">Fish</option>
-              </select>
-            </div>
-            <div class="input">
-              <button>Send</button>
-            </div>
+              <div class="input">
+                <h4>Your Name</h4>
+                <input id="fullname" type="text" placeholder="First and last name">
+              </div>
+              <div class="input">
+                <h4>Email Address:</h4>
+                <input id="email" type="email" placeholder="example@email.com">
+              </div>
+              <div class="input">
+                <h4>What are you interested in?</h4>
+                <select id="interest" class="test">
+                  <option value="1" selected>Vegetables</option>
+                  <option value="2">Fruits</option>
+                  <option value="3">Meat</option>
+                  <option value="4">Fish</option>
+                </select>
+              </div>
+              <div class="input">
+                <button onclick="sendButtonContact()">Send</button>
+              </div>
           </div>
         </div>
       </div>
